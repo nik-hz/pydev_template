@@ -1,0 +1,39 @@
+.claude/
+.vscode/settings.json
+*/__pycache__/
+.devcontainer/.env
+
+.DS_Store
+
+# inputs and results
+results/
+runs/
+benchmark_*/
+
+# data files
+*.tar.gz
+*.jsonl
+*.csv
+
+# test files
+*.hoa
+*.tlsf
+*.trace
+
+# add the tlsf files
+!tlsf_specs/*
+!tlsf_specs_hard/*
+
+!data/*-100-*
+!data/*-200-*
+!data/*sample*
+!data/raw*
+
+# add in the collated results
+!benchmark_results/
+benchmark_results/*/
+!benchmark_results/final_*
+!benchmark_results/summary_*
+!benchmark_results_old/
+!benchmark_results_old/*.jsonl
+!benchmark_results_old/*/*.jsonl
