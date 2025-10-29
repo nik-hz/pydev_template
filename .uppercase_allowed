@@ -2,7 +2,7 @@
 *.DS_Store
 
 # Ignore all Dockerfiles
-Dockerfile
+*Dockerfile
 *.Dockerfile
 
 # Ignore readmes and Licences
